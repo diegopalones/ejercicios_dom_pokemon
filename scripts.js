@@ -11,8 +11,8 @@ newTittle.textContent = "Generasión 1 pokimon";
 // Cambia el color de fondo de la primera generación de Pokimon.
 
 
-let cambiaColor = document.querySelector(".infocard-list-pkmn-lg");
-cambiaColor.style.background = "red";
+let changeColor = document.querySelector(".infocard-list-pkmn-lg");
+changeColor.style.background = "red";
 
 // Imprime por consola la URL de la página.
 
@@ -29,12 +29,12 @@ console.log(domin);
 let allImages = document.querySelectorAll("img");
 console.log(allImages);
 
-// Sustituye el atributo "src" de todas las imágenes por este "https://media.giphy.com/media/2v170e71aanfi/giphy.gif"
+// Sustituye el atributo "src" de todas las imágenes por este "https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif"
 
 for (let i = 0; i < allImages.length; i++) {
     allImages[i].setAttribute(
       "src",
-      "https://media.giphy.com/media/2v170e71aanfi/giphy.gif"
+      "https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif"
     );
   }
 
